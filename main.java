@@ -6,7 +6,7 @@ public class main {
     public static void main(String[] args) {
 
         int radius = 0;
-        System.out.println("Proszę wpisać promień okręgu: ");
+        System.out.println("Prosze wpisac promien okregu: ");
 
         try{
             //Pobierz promień od użytkownika
@@ -16,11 +16,11 @@ public class main {
         }
         //Jeśli została wprowadzona niepoprawna liczba
         catch(NumberFormatException ne){
-            System.out.println("Została wprowadzona niepoprawna liczba" + ne);
+            System.out.println("Zostala wprowadzona niepoprawna liczba" + ne);
             System.exit(0);
         }
         catch (IOException ioe){
-            System.out.println("Błąd IO: " + ioe);
+            System.out.println("Blad IO: " + ioe);
             System.exit(0);
         }
         /*
@@ -31,6 +31,6 @@ public class main {
 
         double area = Math.PI * radius * radius;
 
-        System.out.println("Pole koła wynosi :" + area);
+        System.out.println("Pole kola wynosi :" + area);
     }
 }
