@@ -22,7 +22,7 @@ public class main {
             System.exit(0);
         }
         catch (IOException ioe){
-            System.out.println("Blad IO: " + ioe); //IO ERROR
+            System.out.println("Blad IO: " + ioe); //Input Output ERROR
             System.exit(0);
         }
         double area = Math.PI * radius * radius;
